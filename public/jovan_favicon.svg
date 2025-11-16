@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with gradient -->
+  <circle cx="128" cy="128" r="120" fill="url(#grad1)"/>
+  
+  <!-- Inner glow circle -->
+  <circle cx="128" cy="128" r="110" fill="url(#grad2)"/>
+  
+  <!-- JT Text -->
+  <text x="128" y="180" font-family="Inter, -apple-system, sans-serif" font-size="120" font-weight="800" text-anchor="middle" fill="#ffffff" letter-spacing="-5">JT</text>
+  
+  <!-- Accent dot -->
+  <circle cx="190" cy="80" r="12" fill="#ffffff" opacity="0.8"/>
+</svg>
